@@ -1,11 +1,12 @@
-nombre(20);
-function nombre(a)
-{
-for(let i=1; i<=a; i++  )
-{
-if( i%2 == 0 )
-console.log("impaire");
-else console.log("paire");
-}
 
+for(let i=1; i<=20; i++  )
+{
+if( i%2 == 0 ) 
+{
+    console.log("Paire");
+}
+else
+{
+    console.log("Impaire");
+}
 }
